@@ -1,0 +1,276 @@
+@import url('font-inter/inter.css');
+@import url('font-pragati/pragati.css');
+body{ font-family: 'Inter', sans-serif; }
+h1, h2{ font-family: 'Pragati', sans-serif; }
+
+@import url('jquery/slick.css');
+
+
+
+html{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+}
+
+body{
+margin: 0;
+}
+
+/*
+body.startpage{background-image: linear-gradient(to top, tomato, LightSalmon, PapayaWhip, white);}
+body.crossfoam{background-image: linear-gradient(to top, CornflowerBlue, DodgerBlue, azure, LightCyan, white );}
+*/
+
+a.skip-link{
+display: none;
+}
+
+@media speech { a.skip-link{ display: block; }}
+
+a {
+color: #ff5555;
+}
+
+body.crossfoam a{
+color: #338498;
+}
+
+
+body > header{
+margin:0;
+padding: 10px;
+background: #f9f9f9;
+color: #000;
+}
+
+body.crossfoam > header{
+background: #444444;
+}
+
+div.branding h1{
+text-indent: -9999px;
+margin: auto;
+width: 200px;
+}
+
+div.branding h1 a{
+display: block;
+background: url('ultrapop-logo.svg') no-repeat;
+width: 12em;
+height: 1.3em;
+z-index: 1000;
+}
+
+body.crossfoam div.branding h1 a{
+background: url('ultrapop-logo.svg') no-repeat;
+  filter: grayscale(100%);
+}
+
+nav h1{
+text-indent: -9999px;
+background: url('hamburger.svg');
+width: 32px;
+height: 32px;
+cursor: pointer;
+position: absolute;
+top: -3px;
+right: 10px;
+visibility: hidden;
+}
+
+nav ul{
+display: none;
+}
+
+
+body.crossfoam nav ul{
+text-align: center;
+font-size: 120%;
+width: 100%;
+display: block;
+padding: 0;
+}
+
+body.crossfoam nav ul li{
+display: inline;
+}
+
+body.crossfoam nav ul li a{
+background: #ffffff;
+padding: 3px;
+transform: rotate(-2deg);
+}
+
+body.crossfoam nav ul li a:hover{
+background: #338498;
+color: #ffffff;
+}
+
+
+main{
+	max-width: 1000px; 
+	margin: auto;
+}
+
+main h1{
+text-align: center;
+padding: 0.6em;
+height: 2em;
+background: #f9f9f9 url(redstrip.svg) bottom center no-repeat;
+}
+
+body.crossfoam main h1{
+background: #f9f9f9 url(bluestrip.svg) bottom center no-repeat;
+}
+
+article{
+padding: 2em;
+margin-bottom: 2em;
+text-align: center;
+}
+
+article p{
+text-align: left;
+}
+
+article p.imp{
+font-size: 120%;
+}
+
+body.crossfoam article p{
+padding: 20px;
+background: #f9f9f9;
+color: #444444;
+font-size: 120%;
+}
+
+article ul{
+  list-style: none;
+padding-left: 0;
+}
+
+article ul li{
+background-color: #fff5d4;
+padding: 2em;
+margin-bottom: 1em;
+}
+
+body.crossfoam article ul li{
+background-color: #cfe9ef;
+}
+
+
+article div img{
+width: 70%;
+}
+
+/*special manual features*/
+
+article#manual div{
+display: flex;
+flex-wrap: wrap;
+padding-left: 2em;
+
+}
+
+article#manual div section{
+width: 45%;
+background: #f9f9f9;
+margin: 5px;
+padding-top: 10px;
+}
+
+
+
+/*special slider features */
+#self-description{
+display: block;
+background: none;
+
+}
+
+#self-description h1{
+display: none;
+}
+
+#self-description ul{
+margin: 0 auto;
+transform: rotate(-2deg);
+background: none;
+padding: 0;
+position: absolute;
+top: 3em;
+left: 50vw;
+margin-left: -8em;
+width: 30em;
+height: 5em;
+}
+
+#self-description ul li{
+display: block;
+background: #f55;
+color: #fff;
+padding: 0.5em;
+height: 2em;
+width: auto;
+margin: 0 auto;
+z-index: 100;
+}
+
+#projects-description{
+margin-top: 4em;
+text-align: center;
+}
+
+#projects-description p{
+text-align: center;
+}
+
+
+#projects-description a{
+text-decoration: none;
+color: #666;
+}
+
+li.crossfoam{
+padding: 0;
+}
+
+li.crossfoam a{
+padding: 0.8em;
+}
+
+li.crossfoam h2{
+display: block;
+background: url('crossfoam-logo.svg') top center no-repeat;
+text-indent: -9999px;
+width: 100%;
+height: 6em;
+}
+
+#team-description ul li ul {
+margin-top: 0.8em;
+}
+
+#team-description ul li ul li{
+display: inline; 
+padding: 0;
+margin-bottom: 0;
+}
+
+#team-description ul li ul li a{
+padding: 0.5em;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+padding: 0.5em;
+width: 100%;
+margin-top: 60px;
+background: #f5f5f5;
+color: #aaa;
+text-align: center;
+}
+}
