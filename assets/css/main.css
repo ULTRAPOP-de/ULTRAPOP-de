@@ -1,0 +1,538 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/Inter/Inter/Inter-Thin-BETA.woff2") format("woff2"), url("../fonts/Inter/Inter/Inter-Thin-BETA.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 100;
+  src: url("../fonts/Inter/Inter/Inter-ThinItalic-BETA.woff2") format("woff2"), url("../fonts/Inter/Inter/Inter-ThinItalic-BETA.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/Inter/Inter/Inter-ExtraLight-BETA.woff2") format("woff2"), url("../fonts/Inter/Inter/Inter-ExtraLight-BETA.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 200;
+  src: url("../fonts/Inter/Inter/Inter-ExtraLightItalic-BETA.woff2") format("woff2"), url("../fonts/Inter/Inter/Inter-ExtraLightItalic-BETA.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/Inter/Inter/Inter-Light-BETA.woff2") format("woff2"), url("../fonts/Inter/Inter/Inter-Light-BETA.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 300;
+  src: url("../fonts/Inter/Inter/Inter-LightItalic-BETA.woff2") format("woff2"), url("../fonts/Inter/Inter/Inter-LightItalic-BETA.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Inter/Inter/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter/Inter/Inter-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/Inter/Inter/Inter-Italic.woff2") format("woff2"), url("../fonts/Inter/Inter/Inter-Italic.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Inter/Inter/Inter-Medium.woff2") format("woff2"), url("../fonts/Inter/Inter/Inter-Medium.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/Inter/Inter/Inter-MediumItalic.woff2") format("woff2"), url("../fonts/Inter/Inter/Inter-MediumItalic.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Inter/Inter/Inter-SemiBold.woff2") format("woff2"), url("../fonts/Inter/Inter/Inter-SemiBold.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/Inter/Inter/Inter-SemiBoldItalic.woff2") format("woff2"), url("../fonts/Inter/Inter/Inter-SemiBoldItalic.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Inter/Inter/Inter-Bold.woff2") format("woff2"), url("../fonts/Inter/Inter/Inter-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/Inter/Inter/Inter-BoldItalic.woff2") format("woff2"), url("../fonts/Inter/Inter/Inter-BoldItalic.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/Inter/Inter/Inter-ExtraBold.woff2") format("woff2"), url("../fonts/Inter/Inter/Inter-ExtraBold.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 800;
+  src: url("../fonts/Inter/Inter/Inter-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/Inter/Inter/Inter-ExtraBoldItalic.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/Inter/Inter/Inter-Black.woff2") format("woff2"), url("../fonts/Inter/Inter/Inter-Black.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 900;
+  src: url("../fonts/Inter/Inter/Inter-BlackItalic.woff2") format("woff2"), url("../fonts/Inter/Inter/Inter-BlackItalic.woff") format("woff"); }
+
+* {
+  box-sizing: border-box; }
+
+body, html {
+  margin: 0;
+  padding: 0;
+  border: none;
+  min-width: 200px;
+  font-family: 'Inter', Helvetica, Arial, sans-serif;
+  background-color: white; }
+
+html {
+  font-size: 75%; }
+
+#navbar {
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #338498;
+  color: white;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5); }
+
+#logo-container {
+  padding: 14px 0 0 43px;
+  background-image: url("../images/navbar--logo.png");
+  background-size: 21px 20px;
+  background-repeat: no-repeat;
+  background-position: 13px 14px;
+  height: 50px;
+  font-weight: 600;
+  position: absolute;
+  font-size: 18px;
+  z-index: 9; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  #logo-container {
+    background-image: url("../images/navbar--logo@2x.png"); } }
+
+#version {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 8px;
+  padding: 0 20px 12px;
+  color: rgba(0, 0, 0, 0.2); }
+
+#backButton {
+  position: absolute;
+  top: 55px;
+  left: 15px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  background-color: #338498;
+  color: white;
+  white-space: nowrap;
+  padding: 10px; }
+  #backButton:hover {
+    background-color: #004D61;
+    cursor: pointer; }
+
+/* --- Hamburger Menu --- */
+#menuToggle {
+  display: block;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 7;
+  -webkit-user-select: none;
+  user-select: none; }
+
+#menuToggle input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 8;
+  -webkit-touch-callout: none; }
+
+#menuToggle > span {
+  z-index: 7;
+  display: block;
+  width: 33px;
+  height: 3px;
+  margin-bottom: 6px;
+  position: relative;
+  background: #ffffff;
+  border-radius: 3px;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease; }
+
+#menuToggle > span:first-child {
+  transform-origin: 0% 0%; }
+
+#menuToggle > span:nth-last-child(2) {
+  transform-origin: 0% 100%; }
+
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #ffffff; }
+
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2); }
+
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(0, -1px); }
+
+#menu {
+  z-index: 6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  opacity: 0;
+  width: 100%;
+  height: 100vh;
+  background: #338498;
+  -webkit-font-smoothing: antialiased;
+  transition: opacity 0.5s cubic-bezier(0.77, 0.2, 0.05, 1); }
+
+#menuToggle input:checked ~ #menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1; }
+
+#menu ul, #menu ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px; }
+
+#menu a {
+  color: white;
+  text-decoration: none; }
+  #menu a:hover {
+    text-decoration: underline;
+    cursor: pointer; }
+
+#page.static {
+  max-width: 500px;
+  margin: 0 auto; }
+  #page.static h1, #page.static p.center {
+    text-align: center; }
+  #page.static li {
+    padding-bottom: 10px;
+    font-size: 14px; }
+
+.github-badge {
+  margin-top: 40px;
+  display: table;
+  margin: 0 auto;
+  max-width: 500px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5); }
+  .github-badge > span {
+    display: table-row; }
+    .github-badge > span > span {
+      display: table-cell;
+      vertical-align: middle; }
+  .github-badge img {
+    height: 32px;
+    width: auto;
+    margin-right: 15px;
+    opacity: 0.5; }
+  .github-badge:hover {
+    color: black; }
+    .github-badge:hover img {
+      opacity: 1; }
+
+hr.divider {
+  margin: 0;
+  padding: 0;
+  clear: both;
+  height: 1px;
+  visibility: hidden; }
+  hr.divider.spacing {
+    margin-bottom: 30px; }
+
+#footer {
+  padding: 50px 0 100px 0; }
+
+#page.static.install {
+  max-width: 960px;
+  font-size: 18px; }
+
+h2 {
+  text-align: center;
+  font-size: 1.5em; }
+
+p {
+  font-weight: 300;
+  line-height: 1.4em; }
+
+img.full {
+  width: 100%;
+  height: auto; }
+
+.center {
+  text-align: center; }
+
+header {
+  background-image: url(../images/xf-header.png);
+  background-position: center bottom;
+  width: 100%;
+  height: 550px;
+  background-size: 1400px auto;
+  padding-top: 300px;
+  text-align: center; }
+  header h1, header h2, header h3 {
+    text-shadow: 2px 2px 0px #fff, 2px -2px 0px #fff, -2px -2px 0px #fff, -2px 2px 0px #fff;
+    padding: 0;
+    margin: 0; }
+  header h1 {
+    font-size: 45px;
+    padding-bottom: 5px; }
+  header h2 {
+    font-size: 25px;
+    padding-bottom: 3px; }
+  header div {
+    padding-top: 70px; }
+    header div img {
+      vertical-align: middle;
+      margin-right: 10px;
+      height: 18px;
+      width: auto; }
+  header .button:first-child {
+    margin-right: 15px; }
+  header .button:last-child {
+    margin-left: 15px; }
+
+.button {
+  background-color: #338498;
+  border-radius: 8px;
+  border: 4px solid white;
+  color: white;
+  padding: 14px 18px;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none; }
+  .button:hover {
+    background-color: #004D61;
+    cursor: pointer; }
+
+#installIntro {
+  max-width: 500px;
+  margin: 0 auto; }
+
+#installParagraph4 {
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0; }
+
+#installSpecialHeadline {
+  text-align: center;
+  margin: -100px 0 100px 0;
+  font-size: 24px; }
+
+#specialImage1 {
+  margin-top: 50px; }
+
+.middleBlock {
+  max-width: 550px;
+  padding: 25px;
+  margin: 0 auto 50px auto; }
+
+#features, #privacy, #ethical, #funding, #about, #credits, #how {
+  padding-top: 50px; }
+
+@media (min-width: 768px) {
+  .table {
+    display: table; }
+  .table-row {
+    display: table-row; }
+  .table-cell {
+    width: 50%;
+    display: table-cell;
+    vertical-align: middle; } }
+
+.table img {
+  max-width: 100%;
+  height: auto; }
+
+.table p {
+  padding: 0 25px; }
+
+.table, #two-col-wrap {
+  display: table; }
+  .table > *, #two-col-wrap > * {
+    display: table-row; }
+    .table > * > *, #two-col-wrap > * > * {
+      display: table-cell; }
+
+section#download img {
+  height: 75px;
+  width: auto; }
+
+section#download li > a {
+  background-color: #eee;
+  border-radius: 5px;
+  max-width: 140px;
+  padding: 10px;
+  margin: 0 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  display: inline-block; }
+  section#download li > a:hover {
+    background-color: #555555;
+    color: #fff;
+    cursor: pointer; }
+  section#download li > a span {
+    display: inline-block;
+    padding-top: 7px;
+    white-space: nowrap; }
+
+section#download li.soon > a {
+  background-color: #fff;
+  font-weight: normal;
+  color: #aaa; }
+
+section#download #two-col-wrap p {
+  font-size: 14px; }
+
+section#download #two-col-wrap li > a {
+  background-color: #fff;
+  color: #c4c4c4; }
+  section#download #two-col-wrap li > a:hover {
+    background-color: #555555;
+    color: #fff;
+    cursor: pointer; }
+
+section#download p {
+  text-align: center; }
+
+section#download .table, section#download #two-col-wrap {
+  margin: 0 auto; }
+  section#download .table li, section#download #two-col-wrap li {
+    text-align: center; }
+
+.featureblock {
+  width: 100%;
+  height: 600px;
+  background-size: auto 600px;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .featureblock div {
+    max-width: 90%;
+    width: 350px; }
+  .featureblock h3 {
+    background-color: rgba(255, 255, 255, 0.95);
+    display: inline-block;
+    margin: 0;
+    padding: 3px 5px; }
+  .featureblock p {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 3px 5px;
+    display: inline-block;
+    margin-bottom: 25px; }
+  .featureblock a.button {
+    border-color: transparent;
+    border-radius: 0;
+    margin-top: 20px;
+    padding: 3px 5px; }
+
+#feature1 {
+  background-image: url(../images/features/network.jpg); }
+
+#feature2 {
+  background-image: url(../images/features/overview.jpg); }
+
+#feature3 {
+  background-image: url(../images/features/export.jpg); }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  #feature1 {
+    background-image: url(../images/features/network@2x.jpg); }
+  #feature2 {
+    background-image: url(../images/features/overview@2x.jpg); }
+  #feature3 {
+    background-image: url(../images/features/export@2x.jpg); } }
+
+.two-column {
+  column-count: 2; }
+  .two-column a {
+    text-decoration: none;
+    color: #338498; }
+    .two-column a:hover {
+      text-decoration: underline; }
+
+footer {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin-top: 50px;
+  background-color: #338498;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  padding-top: 10px; }
+  footer a {
+    color: white; }
+
+#how .button {
+  border-radius: 0;
+  border-color: transparent; }
+  #how .button.first-button {
+    margin-left: 25px; }
+
+/*# sourceMappingURL=main.css.map */

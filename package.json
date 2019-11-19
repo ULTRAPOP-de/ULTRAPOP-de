@@ -1,0 +1,35 @@
+{
+  "name": "ultrapop-de",
+  "version": "1.0.0",
+  "description": "ultrapop.de website",
+  "main": " ",
+  "scripts": {
+    "scss": "node-sass ./assets/scss/main.scss --outputStyle compressed --output assets/css --sourceMap true",
+    "watch": "nodemon ",
+    "build": "npm run scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULTRAPOP-de/ULTRAPOP-de.git"
+  },
+  "author": "@seb_meier @lommes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ULTRAPOP-de/ULTRAPOP-de/issues"
+  },
+  "homepage": "https://github.com/ULTRAPOP-de/ULTRAPOP-de#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "node_modules/*"
+    ],
+    "watch": [
+      "assets/scss"
+    ],
+    "exec": "npm run build",
+    "ext": "ts,scss,ejs"
+  }
+}

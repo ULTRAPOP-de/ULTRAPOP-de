@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Pragati';
+  font-style:  normal;
+  font-weight: normal;
+  src: url("PragatiNarrow-Regular.woff2") format("woff2"),
+       url("PragatiNarrow-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: 'Pragati';
+  font-style:  normal;
+  font-weight: bold;
+  src: url("PragatiNarrow-Bold.woff2") format("woff2"),
+       url("PragatiNarrow-Bold.woff") format("woff");
+}
