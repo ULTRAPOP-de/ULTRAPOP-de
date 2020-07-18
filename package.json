@@ -2,11 +2,14 @@
   "name": "ultrapop-de",
   "version": "1.0.0",
   "description": "ultrapop.de website",
-  "main": " ",
+  "main": "index.html",
   "scripts": {
-    "jekyll": "bundle exec jekyll serve",
-    "build": "bundle exec jekyll build"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jekyll": "bundle exec jekyll serve"
   },
+  "keywords": [
+    "jekyll"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ULTRAPOP-de/ULTRAPOP-de.git"
