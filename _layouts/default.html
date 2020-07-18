@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="https://schema.org/WebApplication">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Sebastian Meier | @seb_meier / Daniel Lommes | @lommes">
+  <meta name="description" content="Crossfoam is a web-extension for exploring social media networks. Crossfoam turns filter bubbles into lenses on the public. Crossfoam is being developed by ultrapop.">
+  <meta http-equiv="last-modified" content="2019-10-18 08:06:25 +0000">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#004d61">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta itemprop="name" content="Crossfoam - Digital Empowerment">
+  <meta itemprop="datePublished" content="2019-10-18 08:06:25 +0000">
+  <meta itemprop="dateModified" content="2019-10-18 08:06:25 +0000">
+  <meta itemprop="author" content="Sebastian Meier | @seb_meier / Daniel Lommes | @lommes">
+  <meta itemprop="publisher" content="Sebastian Meier | @seb_meier / Daniel Lommes | @lommes">
+  <meta itemprop="headline" content="Crossfoam - Digital Empowerment">
+  <meta itemprop="mainEntityOfPage" content="https://www.ultrapop.de">
+  <meta itemprop="description" content="Crossfoam is a web-extension for exploring social media networks. Crossfoam turns filter bubbles into lenses on the public. Crossfoam is being developed by ultrapop.">
+  <meta itemprop="image" content="assets/images/social_media.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@seb_meier">
+  <meta name="twitter:title" content="Crossfoam - Digital Empowerment">
+  <meta name="twitter:description" content="Crossfoam is a web-extension for exploring social media networks. Crossfoam turns filter bubbles into lenses on the public. Crossfoam is being developed by ultrapop.">
+  <meta name="twitter:creator" content="@seb_meier">
+  <meta name="twitter:image" content="assets/images/social_media.jpg">
+
+  <meta property="og:title" content="Crossfoam - Digital Empowerment">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.ultrapop.de">
+  <meta property="og:image" content="assets/images/social_media.jpg">
+  <meta property="og:description" content="Crossfoam is a web-extension for exploring social media networks. Crossfoam turns filter bubbles into lenses on the public. Crossfoam is being developed by ultrapop.">
+  <meta property="og:site_name" content="https://www.ultrapop.de">
+  <meta property="article:published_time" content="2019-10-18 08:06:25 +0000">
+  <meta property="article:modified_time" content="2019-10-18 08:06:25 +0000">
+  <title>Crossfoam - Digital Empowerment{{ page.title }}</title>
+  <link rel="stylesheet" type="text/css" href="/assets/css/main.css" media="all">
+</head>
+<body>
+
+  <div id="navbar">
+    <div id="logo-container">
+      <span>Crossfoam</span>
+    </div>
+    <nav role="navigation">
+      <div id="menuToggle">
+        <input label="Toggle Menu" type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <div id="menu">
+          <ul>
+            <li><a href="{% if page.handle != 'index' %}/index.html{% endif %}#story">Why Crossfoam?</a></li>
+            <li><a href="{% if page.handle != 'index' %}/index.html{% endif %}#features">Features</a></li>
+            <li><a href="{% if page.handle != 'index' %}/index.html{% endif %}#download">Download</a></li>
+            <li><a href="{% if page.handle != 'index' %}/index.html{% endif %}#privacy">Privacy</a></li>
+            <li><a href="{% if page.handle != 'index' %}/index.html{% endif %}#ethical">Ethical Design</a></li>
+            <li><a href="{% if page.handle != 'index' %}/index.html{% endif %}#funding">Funding</a></li>
+            <li><a href="{% if page.handle != 'index' %}/index.html{% endif %}#about">About us</a></li>
+            <li><a href="/howto">How it works</a></li>
+            <li><a href="/legal">Legal</a></li>
+            <li><a href="mailto:info@ultrapop.de">Contact</a></li>
+          </ul>
+        </div>
+     </div>
+    </nav>
+  </div>
+
+  {{ content }}
+
+<footer>
+  <a href="mailto:info@ultrapop.de">Contact</a> | <a href="/legal">Legal</a> | <a href="/datapolicy">Data Policy</a> | Ultrapop
+</footer>
+
+<script type="text/javascript" src="/assets/js/main.js"></script>
+
+</body>
+</html>
