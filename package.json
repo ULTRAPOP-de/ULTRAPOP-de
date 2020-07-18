@@ -4,7 +4,8 @@
   "description": "ultrapop.de website",
   "main": " ",
   "scripts": {
-    "jekyll": "bundle exec jekyll serve"
+    "jekyll": "bundle exec jekyll serve",
+    "build": "bundle exec jekyll serve"
   },
   "repository": {
     "type": "git",
