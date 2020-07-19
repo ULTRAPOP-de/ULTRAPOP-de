@@ -9,8 +9,8 @@ exclude: ["CNAME", "LICENSE.md", "README.md"]
 markdown: kramdown
 permalink: pretty
 
-# host: https://www.ultrapop.de
-# url: https://www.ultrapop.de
+host: https://www.ultrapop.de
+url: https://www.ultrapop.de
 
 sass:
   style: compressed
