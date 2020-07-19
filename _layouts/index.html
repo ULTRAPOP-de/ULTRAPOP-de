@@ -1,0 +1,164 @@
+---
+layout: default
+---
+<header>
+  <h1>Crossfoam</h1>
+  <h2>{{ page.h2 }}</h2>
+  <h3>{{ page.h3 }}</h3>
+  <div>
+    <a href="#download" class="button"><img src="{{ "/assets/images/octicons/download.svg" | absolute_url }}" alt="Download now" />{{ page.download_now }}</a>
+    <a href="#story" class="button"><img src="{{ "/assets/images/octicons/rocket.svg" | absolute_url }}" alt="Learn more" />{{ page.learn_more }}</a>
+  </div>
+</header>
+
+<main id="page" class="static install site-content">
+
+  <section id="story" style="padding-top:50px;">
+    <img id="specialImage1" class="full" srcset="{{ "/assets/images/story/story-01.jpg" | absolute_url }}, {{ "/assets/images/story/story-01@2x.jpg" | absolute_url }} 2x" src="{{ "/assets/images/story/story-01.jpg" | absolute_url }}" alt="" />
+    <h3 id="installSpecialHeadline">{{ page.story_head1 }}</h3>
+
+    <div class="table responsive">
+      <div class="table-row">
+        <div class="table-cell"><img srcset="{{ "/assets/images/story/story-02.jpg" | absolute_url }}, {{ "/assets/images/story/story-02@2x.jpg" | absolute_url }} 2x" src="{{ "/assets/images/story/story-02.jpg" | absolute_url }}" alt="" /></div>
+        <div class="table-cell"><p id="installParagraph1">{{ page.story_p1 }}</p></div>
+      </div>
+    </div>
+    
+    <div class="table responsive">
+      <div class="table-row">
+        <div class="table-cell"><p id="installParagraph2">{{ page.story_p2 }}</p></div>
+        <div class="table-cell"><img srcset="{{ "/assets/images/story/story-03.jpg" | absolute_url }}, {{ "/assets/images/story/story-03@2x.jpg" | absolute_url }} 2x" src="{{ "/assets/images/story/story-03.jpg" | absolute_url }}" alt="" /></div>
+      </div>
+    </div>
+
+    <div class="table responsive">
+      <div class="table-row">
+        <div class="table-cell"><img srcset="{{ "/assets/images/story/story-04.jpg" | absolute_url }}, {{ "/assets/images/story/story-04@2x.jpg" | absolute_url }} 2x" src="{{ "/assets/images/story/story-04.jpg" | absolute_url }}" alt="" /></div>
+        <div class="table-cell"><p id="installParagraph3">{{ page.story_p3 }}</p></div>
+      </div>
+    </div>
+    
+    <hr class="divider spacing" />
+
+    <img id="specialImage2" class="full" srcset="{{ "/assets/images/story/story-05.jpg" | absolute_url }}" | absolute_url }}, {{ "/assets/images/story/story-05@2x.jpg" | absolute_url }} 2x" src="{{ "/assets/images/story/story-05.jpg" | absolute_url }}" alt="" />
+    <p class="middleBlock" id="installParagraph4">{{ page.story_p4 }}</p>
+  </section>
+
+  <section id="features">
+      <h2>{{ page.feature_head }}</h2>
+
+      <div class="featureblock" id="feature1">
+        <div class="featureblock-inner">
+          <h3>{{ page.feature_head1 }}</h3>
+          <p>{{ page.feature_p1 }}</p>
+          <a class="button" href="#download">{{ page.feature_link1 }} &raquo;</a>
+        </div>
+      </div>
+
+      <div class="featureblock" id="feature2">
+          <div class="featureblock-inner">
+            <h3>{{ page.feature_head2 }}</h3>
+          <p>{{ page.feature_p2 }}</p>
+            <a class="button" href="#privacy">{{ page.feature_link2 }} &raquo;</a>
+          </div>
+      </div>
+
+      <div class="featureblock" id="feature3">
+          <div class="featureblock-inner">
+            <h3>{{ page.feature_head3 }}</h3>
+          <p>{{ page.feature_p3 }}</p>
+            <a class="button" href="#ethical">{{ page.feature_link3 }} &raquo;</a>
+          </div>
+      </div>
+
+  </section>
+
+  <section id="download" style="padding-top:50px;">
+    <h2>Download</h2>
+    <p>{{ page.download_p }}</p>
+    <div class="table">
+      <ul>
+        <li><a href="#"><img src="{{ "/assets/images/stores/firefox.svg" | absolute_url }}" alt="Firefox" /><br /><span>Firefox</span></a></li>
+        <li><a href="#"><img src="{{ "/assets/images/stores/chrome.svg" | absolute_url }}" alt="Chrome" /><br /><span>Chrome</span></a></li>
+        <li><a href="#"><img src="{{ "/assets/images/stores/opera.svg" | absolute_url }}" alt="Opera" /><br /><span>Opera</span></a></li>
+        <li><a href="#"><img src="{{ "/assets/images/stores/edge.svg" | absolute_url }}" alt="Edge" /><br /><span>Edge</span></a></li>
+      </ul>
+    </div>
+    <div id="two-col-wrap">
+      <div>
+        <div>
+          <p>{{ page.download_manual }}</p>
+          <div class="table">
+            <ul>
+              <li><a href="#"><img src="{{ "/assets/images/stores/firefox-bw.svg" | absolute_url }}" alt="Firefox" /><br /><span>Firefox</span></a></li>
+              <li><a href="#"><img src="{{ "/assets/images/stores/chrome-bw.svg" | absolute_url }}" alt="Chrome" /><br /><span>Chrome</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <p>{{ page.download_source }}</p>
+          <div class="table">
+            <ul>
+              <li><a href="#"><div><img src="{{ "/assets/images/stores/github.svg" | absolute_url }}" alt="Github" /><br /><span>Github</span></div></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <h2>{{ page.how_head }}</h2>
+    <img srcset="{{ "/assets/images/story/intro-1.jpg" | absolute_url }}, {{ "/assets/images/story/intro-1@2x.jpg" | absolute_url }} 2x" src="{{ "/assets/images/story/intro-1.jpg" | absolute_url }}" alt="" /><br />
+    <a href="{{ "/" | append: page.lang | append: "/howto/" | absolute_url }}" class="button"><img src="{{ "/assets/images/octicons/rocket.svg" | absolute_url }}" alt="{{ page.learn_more }}" />{{ page.learn_more }}</a>
+  </section>
+
+  
+  <section id="privacy">
+    <div class="headline-wrap">
+      <h2>{{ page.privacy_head }}</h2>
+    </div>
+    <p>{{ page.privacy_p1 }}</p>
+    <p>{{ page.privacy_p2 }}</p>
+  </section>
+  
+  <section id="ethical">
+    <div class="headline-wrap">
+      <h2>{{ page.ethical_head }}</h2>
+    </div>
+    <p><a href='https://ind.ie/ethical-design'><img style='float:left; margin:0 10px 10px 0;' alt='Ethical Design' src='{{ "/assets/images/ethical-design-badge-tiny.svg" | absolute_url }}'></a>{{ page.ethical_p1 }}</p>
+    <p>{{ page.ethical_p2 }}</p>
+    <p>{{ page.ethical_p3 }}</p>
+    <p>{{ page.ethical_p4 }}</p>
+    <p>{{ page.ethical_p5 }} <a href="https://2017.ind.ie/ethical-design/">https://2017.ind.ie/ethical-design/</a>.</p>
+  </section>
+
+  <section id="funding">
+    <div class="headline-wrap">
+      <h2>{{ page.funding_head }}</h2>
+    </div>
+    <p style="text-align: center;"><a href="https://prototypefund.de"><img src="{{ "/assets/images/prototypefund.jpg" | absolute_url }}" alt="PrototypeFund" style="height:125px; margin:0 10px;"></a><a href="https://www.bmbf.de/de/software-sprint-freie-programmierer-unterstuetzen-3512.html"><img src="{{ "/assets/images/bmbf.jpg" | absolute_url }}" alt="Gefördert vom Bundesministerium für Bildung und Forschung" style="height:125px; margin:0 10px;"></a></p>
+    <p>{{ page.funding_p1 }}</p>
+    <p>{{ page.funding_p2}}</p>
+  </section>
+  
+  <section id="about">
+    <div class="headline-wrap">
+      <h2>{{ page.we_head }}</h2>
+    </div>
+    <p>{{ page.we_p }}</p>
+    <p class="two-column">
+        <strong>Sebastian Meier</strong><br />
+        <a href="https://sebastianmeier.eu/">www.sebastianmeier.eu</a><br />
+        <a href="https://twitter.com/seb_meier">twitter.com/seb_meier</a><br />
+        <strong>Daniel Lommes</strong><br />
+        <a href="http://lomm.es">www.lomm.es</a><br />
+        <a href="https://twitter.com/lommes">twitter.com/lommes</a>
+    </p>
+  </section>
+
+  <section id="credits">
+    <h2>{{ page.credit_head }}</h2>
+    <p>{{ page.credit_p }}</p>
+  </section>
+</main>
